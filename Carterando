@@ -1,4 +1,0 @@
-import folium
-c=folium.Map(location=[48.441341 , 0.080997],zoom_start=15)
-folium.Marker([48.43866, 0.08135],popup="Entrée principale").add_to(c)
-c.save('jailacarte.html')
